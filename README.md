@@ -12,3 +12,5 @@ Depois de baixado rode o comando: `npm` ou `yarn install`.
 
 E finalmente rode : `npm` ou `yarn start` e abra no navegador `http://localhost:3000`
 E desfrute 😊❤️🎉
+
+<img align="center" src="https://bantuc.s3.us-east-2.amazonaws.com/gomovie/repository-images/Captura+de+Tela+(74).png"/>
