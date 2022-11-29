@@ -1,16 +1,12 @@
-### GOMOVIE
+## how to clone
 
-É o meu mais novo projecto de website responsivo voltado a indexacao de filmes.
+To clone, just have git installed and run the command: git clone https://github.com/DenyCelestino/GOMOVIE-WEB-VERSION.git
 
-## como clonar
+## how to install dependencies
 
-Para clonar basta so ter o git instalado e rodar o comando: git clone https://github.com/DenyCelestino/GOMOVIE-WEB-VERSION.git
+Once downloaded, run the command: `npm` or `yarn install`.
 
-## como instalar dependencias
-
-Depois de baixado rode o comando: `npm` ou `yarn install`.
-
-E finalmente rode : `npm` ou `yarn start` e abra no navegador `http://localhost:3000`
-E desfrute 😊❤️🎉
+And finally run : `npm` or `yarn start` and open in browser `http://localhost:3000`
+And enjoy 😊❤️🎉
 
 <img align="center" src="https://bantuc.s3.us-east-2.amazonaws.com/gomovie/repository-images/Captura+de+Tela+(74).png"/>
