@@ -1,0 +1,99 @@
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  cursor: grab;
+}
+.hero img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.info-container {
+  color: #fff;
+  position: absolute;
+  padding: 10rem;
+  bottom: 0;
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: flex-start;
+  background-image: linear-gradient(rgb(0, 0, 0, 0), rgb(0, 0, 0, 1));
+}
+.info-container .title {
+  font-size: 28px;
+}
+.info-subcontainer {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  width: 20%;
+}
+.sinopse {
+  align-self: flex-start;
+  text-align: justify;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+.button-container button {
+  padding: 20px 50px;
+  width: 230px;
+  border-radius: 10px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+}
+.watch-button {
+  background-color: red;
+}
+.trailer-button {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+@media only screen and (max-width: 768px) {
+  .info-container {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    padding: 0;
+    padding: 0 5rem;
+  }
+
+  .info-container .title {
+    font-size: 16px;
+    width: 100%;
+  }
+  .info-subcontainer {
+    width: 100%;
+  }
+  .info-subcontainer img {
+    height: 20px;
+    width: 20px;
+  }
+  .info-subcontainer span {
+    font-size: 10px;
+  }
+  .sinopse {
+    font-size: 10px;
+  }
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}

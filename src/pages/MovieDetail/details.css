@@ -1,0 +1,72 @@
+.detail-container {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  color: #fff;
+  text-align: justify;
+}
+.detail-wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+.detail-wrapper img {
+  height: 450px;
+  width: 300px;
+  border-radius: 10px;
+}
+.detail-container {
+  display: flex;
+  padding: 80px 0;
+  flex-direction: row;
+}
+.detail-info {
+  margin: 0 50px;
+}
+
+.button-container-detail {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+.button-container-detail button {
+  padding: 20px 50px;
+  width: 230px;
+  border-radius: 10px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+}
+.watch-button-detail {
+  background-color: red;
+}
+.trailer-button-detail {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+@media only screen and (max-width: 768px) {
+  .detail-container {
+    flex-direction: column;
+    padding: 20px 0;
+    align-items: center;
+  }
+  .detail-info {
+    margin: 0 30px;
+    justify-content: center;
+  }
+  .detail-wrapper img {
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+  }
+  .detail-wrapper h1 {
+    font-size: 16px;
+  }
+  .button-container-detail {
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 0 20px 0;
+  }
+}
